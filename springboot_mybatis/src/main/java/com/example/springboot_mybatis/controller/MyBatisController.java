@@ -15,7 +15,7 @@ public class MyBatisController {
 
     @RequestMapping("/demo")
     public People demo(){
-		System.out.println("已访问接口");
+		System.out.println("访问成功");
         return peopleDao.findById(1);
     }
 }
